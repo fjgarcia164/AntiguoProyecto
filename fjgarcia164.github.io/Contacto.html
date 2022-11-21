@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacta con nosotros</title>
+</head>
+
+<body style="background-color: aquamarine ;font-family: Arial;">
+    <header style="text-align:center ;">
+        <h1 style="font-family: Brush Script MT ; font-size: 60px;">Restaurante Salazones</h1>
+        <img src="imagenes/Restaurante.jpg" alt="Restaurante">
+        <br>
+        <a href="index.html">Inicio</a>
+        <a href="Menú.html">Menú del día</a>
+        <a href="Platos estrella.html">Platos estrella</a>
+        <a href="Contacto.html">Reserva</a>
+    </header>
+    <div>
+        <form>
+            <fieldset>
+                <legend>Introduzca sus datos</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido"><br>
+                <label for="telefono">Teléfono:</label>
+                <input type="text" id="telefono" name="telefono"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Elija su día, hora y asistentes</legend>
+                <label for="dia_reserva">Elija el día</label>
+                <select id="dia_reserva" name="dia_reserva">
+                    <option value="1">Lunes</option>
+                    <option value="2">Martes</option>
+                    <option value="3">Miércoles</option>
+                    <option value="4">Jueves</option>
+                    <option value="5">Viernes</option>
+                    <option value="6">Sábado</option>
+                </select><br>
+                <input type="radio" id="comida" name="hora" value="comida">
+                <label for="comida">Para comer</label><br>
+                <input type="radio" id="cena" name="hora" value="cena">
+                <label for="cena">Para cenar</label><br>
+                <label for="hora_reserva">Elija su hora de reserva para comer</label>
+                <select id="hora_reserva" name="hora_reserva">
+                    <option value="Noreserva">No reservar para comer</option>
+                    <option value="1">13:30</option>
+                    <option value="2">14:00</option>
+                    <option value="3">14:30</option>
+                    <option value="4">15:00</option>
+                    <option value="5">15:30</option>
+                    <option value="6">16:00</option>
+                </select><br>
+                <label for="hora_reserva">Elija su hora de reserva para cenar</label>
+                <select id="hora_reserva" name="hora_reserva">
+                    <option value="Noreserva">No reservar para cenar</option>
+                    <option value="1">21:00</option>
+                    <option value="2">21:30</option>
+                    <option value="3">22:00</option>
+                    <option value="4">22:30</option>
+                    <option value="5">23:00</option>
+                    <option value="6">23:30</option>
+                </select><br>
+                <label for="comensales">Elija cuantos comensales asistirán</label>
+                <select id="comensales" name="numcomensales">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select><br>
+                <textarea name="comentarios" rows="10"
+                    cols="50">Si la reserva es para algún evento escriba aquí las especificaciones.</textarea>
+
+            </fieldset>
+            <input type="submit">
+        </form>
+    </div>
+<hr>
+    
+    <footer>
+        <div style="position: absolute ;left: 0px;">
+        <h3>Horario</h3>
+        <ul class="HORARIO">
+
+
+
+            <li>
+                <span class="dia">LUNES</span>
+                <span class="horas">13:30 - 16:00 | 21:00 - 23:30</span>
+            </li>
+
+
+            <li>
+                <span class="dia">MARTES</span>
+                <span class="horas">13:30 - 16:00 | 21:00 - 23:30</span>
+            </li>
+
+
+            <li>
+                <span class="day">MIÉRCOLES</span>
+                <span class="horas">13:30 - 16:00 | 21:00 - 23:30</span>
+            </li>
+
+
+            <li>
+                <span class="day">JUEVES</span>
+                <span class="horas">13:30 - 16:00 | 21:00 - 00:00</span>
+            </li>
+
+
+            <li>
+                <span class="day">VIERNES</span>
+                <span class="horas">13:30 - 16:00 | 21:00 - 00:00</span>
+            </li>
+
+
+            <li>
+                <span class="day">SÁBADO</span>
+                <span class="horas">13:30 - 16:00 | 21:00 - 00:00</span>
+            </li>
+
+
+           
+
+        </ul>
+    </div>
+    <div style="position: absolute ; left: 700px;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d34624.04143834753!2d-3.609091528732627!3d37.14062193299802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1668850560908!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <div style="position: absolute ;bottom: 120px; left: 800px">
+        <a href="https://www.instagram.com/"><img src="imagenes/Instagram.png" alt="Instagram" width="50px" height="50px"></a>
+        <a href="https://twitter.com/home?lang=es"><img src="imagenes/Twitter.png" alt="Twitter" width="50px" height="50px"></a>
+        <a href="https://es-es.facebook.com/"><img src="imagenes/Facebook.png" alt="facebook" width="50px" height="50px"></a>
+
+        
+    </div>
+    </footer>
+</body>
+
+</html>
